@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #6C63FF;
+  --primary-dark: #4B44CC;
+  --primary-light: #EEF0FF;
+  --success: #22C55E;
+  --success-light: #DCFCE7;
+  --danger: #EF4444;
+  --danger-light: #FEE2E2;
+  --warning: #F59E0B;
+  --warning-light: #FEF3C7;
+  --info: #3B82F6;
+  --info-light: #DBEAFE;
+  --pending: #F59E0B;
+  --pending-light: #FEF3C7;
+  --approved: #22C55E;
+  --approved-light: #DCFCE7;
+  --rejected: #EF4444;
+  --rejected-light: #FEE2E2;
+  --bg: #F5F6FA;
+  --sidebar-bg: #1E1B4B;
+  --sidebar-text: #C7C4F0;
+  --sidebar-active: #6C63FF;
+  --card-bg: #FFFFFF;
+  --text-primary: #1E1B4B;
+  --text-secondary: #6B7280;
+  --border: #E5E7EB;
+  --input-bg: #F9FAFB;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+input, select, textarea, button {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
